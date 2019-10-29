@@ -6,7 +6,7 @@ We provide an implementation of DDPG to solve the single-arm Unity [Reacher](htt
 
 ![Single Reacher solved](Unity_single_reacher.gif)
 
-The set-up is as follows: the agent controls a double-jointed arm with a blue sphere on it. The agent recieves a reward of +0.1 for every timestep that that the sphere is in contact with the moving orb. At each timestep, the agent observes 33 dimensional vector encodes information about the environment (e.g. position, velocity, and rotation of the arm) and interacts with the environment outputting four dimensonal vector.
+The set-up is as follows: the agent controls a double-jointed arm with a blue sphere on it. The agent recieves a reward of +0.1 for every timestep that the sphere is in contact with the moving orb. At each timestep, the agent observes a 33 dimensional vector that encodes information about the environment (e.g. position, velocity, and rotation of the arm) and interacts with the environment outputting a four dimensonal vector.
 
 While this repository provides a solution for the single-arm Reacher environment, there is a sister environment with multiple arms:
 
